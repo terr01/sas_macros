@@ -5,7 +5,7 @@ Extended Gini : Consider a game where you are presented scores of two samples an
                 The pay-off from the game depends on whether the sample is actually default or not.
                 For e.g. you get 1 point whenever you choose a good account and -1 when you choose a 
                 bad one. Extended GINI is the normalized expected pay-off under this game. It is equivalent
-                to the usual GINI metric in binary case.   
+                to the usual GINI metric (2*AUC-1) in binary case.   
                 The advantage of extended gini is that we can generalize it to non-binary cases easily. 
                 For e.g: You could define a pay-off structure based on max-delinquency. It is handy when
                 one wants to assess predictive power of a variable/score in a low-default portfolio. You
